@@ -16,6 +16,6 @@ if(str.equals("mul"))
 if(str.equals("div"))
   k=i/j;
 %>
-Result is <%=k%>
+<span id="result">Result is <%=k%></span>
 </body>
 </html>
